@@ -50,6 +50,7 @@ jobs:
         # Add commands to this `run` step to execute a snyk test with the following criteria:
         # - fail only on vulns where a fix (upgrade) is available
         # - fail only for high or critical severity vulns
+        # adding some junk to get this to run again
       - run:
           name: Snyk Test
           command: |
